@@ -224,7 +224,7 @@
 		function animate() {
 			requestAnimationFrame( animate );
 			TWEEN.update();
-			
+
 			if (manager.isVRMode()) {
 				effect.render(scene, camera);
 				controls.update();
@@ -233,7 +233,7 @@
 				orbitControls.update();
 			}
 
-			onWindowResize();			
+			onWindowResize();
 		}
 
 		animate();
